@@ -24,14 +24,14 @@ namespace WuerfelspielTests
         {
             //Arange
             int seiten = 6;
-            int augenanzahl = 1;
+            int Augenanzahl = 1;
 
             //Act
-            wuerfel w1 = new wuerfel(seiten);
+            Wuerfel w1 = new Wuerfel(seiten);
 
             //Assert
-            Assert.AreEqual(1, w1.augenanzahl);
-            Assert.AreEqual(6, w1.seiten);
+            Assert.AreEqual(1, w1.Augenanzahl);
+            Assert.AreEqual(6, w1.Seiten);
 
         }
     }
